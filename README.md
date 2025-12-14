@@ -8,17 +8,17 @@ The project focuses on clarity, correct database design, and meaningful analysis
 
 🎯 Objective
 
-The objective of this project is to:
+-The objective of this project is to:
 
-Design a normalized academic database
+-Design a normalized academic database
 
-Analyze student performance across subjects and departments
+-Analyze student performance across subjects and departments
 
-Compare individual performance with group averages
+-Compare individual performance with group averages
 
-Rank students fairly using window functions
+-Rank students fairly using window functions
 
-This project is designed at a beginner–intermediate SQL level.
+-This project is designed at a beginner–intermediate SQL level.
 
 🧰 Tools & Technologies Used
 
@@ -48,6 +48,7 @@ Clean relational design suitable for analytical queries
 An ER diagram is included in the docs/ folder.
 
 📁 Project Folder Structure
+
 Student-Performance-SQL/
 │
 ├── database/
@@ -66,65 +67,66 @@ Student-Performance-SQL/
 ├── INSIGHTS.md
 └── README.md
 
+
 🔍 SQL Concepts Covered
 
-This project demonstrates the following SQL concepts:
+-This project demonstrates the following SQL concepts:
 
-DDL & DML commands
+-DDL & DML commands
 
-Multi-table JOINs
+-Multi-table JOINs
 
-Aggregate functions
+-Aggregate functions
 
-Window functions (OVER, RANK, AVG)
+-Window functions (OVER, RANK, AVG)
 
-SET operators (UNION, INTERSECT, EXCEPT)
+-SET operators (UNION, INTERSECT, EXCEPT)
 
-Clean query organization and documentation
+-Clean query organization and documentation
 
-Advanced concepts like subqueries, CTEs, triggers, and procedures were intentionally avoided.
+-Advanced concepts like subqueries, CTEs, triggers, and procedures were intentionally avoided.
 
 📊 Analysis Performed
 
-Some of the key analyses included in this project:
+-Some of the key analyses included in this project:
 
-Student-wise marks across subjects
+-Student-wise marks across subjects
 
-Subject-wise and department-wise average scores
+-Subject-wise and department-wise average scores
 
-Ranking students within subjects and departments
+-Ranking students within subjects and departments
 
-Comparing individual performance with subject and department averages
+-Comparing individual performance with subject and department averages
 
-Identifying exam participation using set operators
+-Identifying exam participation using set operators
 
-Detailed insights are documented in INSIGHTS.md.
+-Detailed insights are documented in INSIGHTS.md.
 
 ▶️ How to Run This Project
 
-Open SQL Server Management Studio (SSMS)
+-Open SQL Server Management Studio (SSMS)
 
-Create a new database
+-Create a new database
 
-Run database/schema.sql to create tables
+-Run database/schema.sql to create tables
 
-Run database/sample_data.sql to insert sample data
+-Run database/sample_data.sql to insert sample data
 
-Execute queries from the queries/ folder based on analysis type
+-Execute queries from the queries/ folder based on analysis type
 
 📈 Learning Outcomes
 
 Through this project, I learned how to:
 
-Design a relational database from scratch
+-Design a relational database from scratch
 
-Organize SQL projects in a clean and maintainable way
+-Organize SQL projects in a clean and maintainable way
 
-Write meaningful analytical queries
+-Write meaningful analytical queries
 
-Use window functions for ranking and comparison
+-Use window functions for ranking and comparison
 
-Present SQL work clearly on GitHub
+-Present SQL work clearly on GitHub
 
 🚀 Future Improvements (Optional)
 
@@ -144,3 +146,4 @@ It is intended to showcase clarity of thought, clean design, and analytical skil
 📌 Author: Srikumar
 📌 Level: Beginner–Intermediate SQL
 📌 Database: SQL Server
+
